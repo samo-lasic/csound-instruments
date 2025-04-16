@@ -13,6 +13,8 @@ These instruments are used in live performance and are not publicly released as 
 - [Bonkolo](#bonkolo)
 - [Cicado](#cicado)
 
+
+---
 ## Tokolo
 
 **Tokolo** is a modular, polyphonic performance instrument developed in [Csound](https://csound.com/) and [Cabbage](https://cabbageaudio.com/), designed for expressive real-time improvisation. It runs as a plugin (VST/AU) within any DAW and supports dynamic tuning, acoustic-inspired articulation types, and modular per-note modulation. Control is entirely hands-on via MIDI controllers, foot pedals, or OSC-based tools, with no reliance on mouse interaction during performance.
@@ -101,8 +103,10 @@ A global Moog-style lowpass filter shapes the instrument’s final output, enabl
 
 ### Further Documentation
 
-For further information about Tokolo’s tuning system, articulation modes, and expressive gesture control, see the [**Tokolo Technical Documentation**](instruments/tokolo.md).
+For further information about Tokolo’s tuning system, articulation modes, and expressive gesture control, see:  
+[**Tokolo Technical Documentation**](instruments/tokolo.md)
 
+---
 ## Bonkolo
 
 **Bonkolo** is a real-time performance instrument built in [Csound](https://csound.com/) and [Cabbage](https://cabbageaudio.com/), designed for shaping evolving rhythmic, harmonic, and timbral behavior through interaction—not programming. It features two independently modulated sequencing layers—**SOLO** and **CHORD**—with stochastic pitch ordering, bounce-based articulation, and independent trigger probability control (**DICE**). Inspired by the physics of bouncing balls, Bonkolo shapes volume envelopes to accelerate and decay, mimicking the energy loss and compression between rhythmic impulses. The plugin runs as a fully MIDI-controlled VST/AU instrument.
@@ -159,8 +163,10 @@ Preset sets can also be saved to file and reused across sessions, enabling perfo
 
 ### Further Documentation
 
-For further information about Bonkolo’s design and features, see the [**Bonkolo Technical Documentation**](instruments/bonkolo.md).
+For further information about Bonkolo’s design and features, see:  
+[**Bonkolo Technical Documentation**](instruments/bonkolo.md)
 
+---
 ## Cicado
 
 **Cicado** is a performance instrument built in **Csound** and **Cabbage**, designed for real-time use in improvised and ensemble-based contexts. It shapes a **single modulated voice** articulated across two audio channels—each with independent pitch, amplitude, and timbral movement. Instead of layering multiple voices, Cicado emphasizes continuous variation through divergent envelopes, spline-based frequency shaping, rhythmic amplitude modulation, and vowel-based formant filtering.
@@ -187,4 +193,5 @@ Cicado is built for real-time control through foot pedals, sliders, and touch-ba
 
 ### Further Documentation
 
-For further information about Cicado’s design, modulation system, and expressive control architecture, see the [**Cicado Technical Documentation**](/instruments/cicado.md).
+For further information about Cicado’s design, modulation system, and expressive control architecture, see:  
+[**Cicado Technical Documentation**](/instruments/cicado.md)
