@@ -91,7 +91,7 @@ Tokolo’s sound engine is based on a fixed FM topology consisting of a carrier 
 
 - **COLOR** – Sets the modulation depth from modulator 1 to the carrier
 - **AMP** – Sets the modulation depth from modulator 2 to modulator 1
-- **FB** – Sets feedback depth on modulator 2. Feedback is dynamically scaled by **COLOR** and has no effect when COLOR is zero
+- **FB** – Sets feedback depth on modulator 2. Feedback is dynamically scaled by **COLOR** and has no effect when **COLOR** is zero
 - **FRQ1** – Sets the frequency ratio of modulator 1 relative to the carrier
 - **FRQ2** – Sets the frequency ratio of modulator 2 relative to modulator 1
 - **X/Y** – Toggles between discrete (rational) and continuous (floating point) selection for modulator frequency ratios
@@ -119,7 +119,7 @@ Inspired by the melodic ornamentation techniques used in Indian classical music 
 
 ### Color Modulation
 
-Color modulation shapes the FM depth—the amplitude of the modulator signal—and is central to Tokolo’s timbral character. By adjusting this depth dynamically, the instrument can shift between distinct sonic identities, such as bell-like strikes, smooth organ tones, or more unstable, noise-like textures. Modulation can be periodic or stochastic, producing anything from subtle shimmer to complex spectral movement. **Gel** and non-Gel layers have separate **COLOR** (FM depth) controls, which scale the amount of modulation applied.
+Color modulation shapes the FM depth—the amplitude of the modulator signal—and is central to Tokolo’s timbral character. By adjusting this depth dynamically, the instrument can shift between distinct sonic identities, such as bell-like strikes, smooth organ tones, or more unstable, noise-like textures. Modulation can be periodic or stochastic, producing anything from subtle shimmer to complex spectral movement. **GEL** and non-GEL layers have separate **COLOR** (FM depth) controls, which scale the amount of modulation applied.
 
 #### Controls (ColorMod section):
 
