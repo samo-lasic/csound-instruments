@@ -1,4 +1,5 @@
 # Csound Instrument Portfolio
+*by Samo Lasič*
 
 This portfolio documents a growing collection of real-time performance instruments built in [Csound](https://csound.com/) and [Cabbage](https://cabbageaudio.com/). Each instrument is designed for expressive, gesture-driven control via MIDI controllers, foot pedals, and OSC interfaces—optimized for live performance, ensemble integration, and responsive interaction.
 
