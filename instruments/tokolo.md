@@ -1,6 +1,6 @@
 [← Back to Instrument Index](../index.md)
 
-# Tokolo
+# Tokolo — Technical Documentation
 
 ## Introduction
 
