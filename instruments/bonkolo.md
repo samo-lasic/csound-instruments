@@ -11,7 +11,7 @@ Unlike traditional step sequencers or generative plugins, Bonkolo is conceived a
 <p align="left">
   <img src="../images/bonkolo.png" style="max-width: 100%;" width="700">
   <br>
-  <em>Bonkolo interface, organized by functional groups: SEQUENCE, SCALE & TUNING, SOLO & CHORD modulation, FILTER and bounce shaping, NOISOLO subsystem, TIMBRE modulation, FM synthesis, and the eight-slot preset system. Key parameters are MIDI-mapped for real-time control.</em>
+  <em><strong>Bonkolo interface</strong>, organized by functional groups: SEQUENCE, SCALE & TUNING, SOLO & CHORD modulation, FILTER and bounce shaping, NOISOLO subsystem, TIMBRE modulation, FM synthesis, and the eight-slot preset system. Key parameters are MIDI-mapped for real-time control.</em>
 </p>
 ## Sequencing and Temporal Structure
 
