@@ -6,7 +6,7 @@
 
 Inspired by the behavior of bouncing “balls”, Bonkolo models motion-like dynamics through time-varying envelopes, stereo positioning, and per-note decay shaping. Each note behaves as a virtual object with properties such as **jump height**, **gravity-based decay**, **sustain**, and **pan**, producing animated, polyrhythmic textures that shift continuously across the sequence.
 
-Unlike traditional step sequencers or generative plugins, Bonkolo is conceived as a **performance instrument**, not a composition tool. Its unique combination of **bounce-based articulation**, **dual-layer probabilistic control**, and **real-time modulation shaping** enables continuous musical transformation without breaking flow. All parameters are designed for hands-on use via MIDI or OSC interfaces, with no reliance on screen-based editing during play.
+Unlike traditional step sequencers or generative plugins, Bonkolo is conceived as a **performance instrument**, not for programming fixed sequences or patterns. Its unique combination of **bounce-based articulation**, **dual-layer probabilistic control**, and **real-time modulation shaping** enables continuous musical transformation without breaking flow. All parameters are designed for hands-on use via MIDI or OSC interfaces, with no reliance on screen-based editing during play.
 
 <p align="left">
   <img src="../images/bonkolo.png" style="max-width: 100%;" width="700">
