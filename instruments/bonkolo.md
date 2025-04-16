@@ -1,6 +1,6 @@
 [← Back to Instrument Index](../index.md)
 
-# Bonkolo
+# Bonkolo — Technical Documentation
 
 **Bonkolo** is a real-time **probabilistic sequencer** built in [Csound](https://csound.com/) and [Cabbage](https://cabbageaudio.com/), designed for improvisational performance with evolving rhythmic patterns, shifting harmonic textures, and dynamic timbral modulation. It features two independently controlled layers—**SOLO** and **CHORD**—each with probabilistic triggering, modulation shaping, and voice articulation.
 
@@ -72,7 +72,7 @@ The CHORD line includes additional controls that shape harmonic structure, voici
 - **Dedicated volume** control adjusts the overall loudness of the CHORD layer independently from SOLO.
 - **Inversion probability** determines how often chord voicings are rearranged internally, introducing harmonic variation.
 - **Chord density** sets the number of voices per chord (ranging from 2 to 5), allowing control over harmonic thickness.
-- **Doubling** (**–|+**) adds a second chord transposed either down or up. The farther the control moves from center, the higher the probability that the extra voicing will be triggered.
+- **Doubling** (**`-|+`**) adds a second chord transposed either down or up. The farther the control moves from center, the higher the probability that the extra voicing will be triggered.
 - **SCATTER** offsets the timing of individual chord notes. Leftward values introduce random staggering; rightward values produce regular, arpeggio-like spreads.
 
 ## Synthesis and Timbre Architecture
