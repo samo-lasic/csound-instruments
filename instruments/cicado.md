@@ -1,19 +1,19 @@
 [← Back to Instrument Index](../index.md)
 
-# Cicado
+# Cicado — Technical Documentation
 
 ## Introduction
 
 **Cicado** is a real-time performance instrument built in **Csound** and **Cabbage**, designed around two independently modulated voices—one per stereo channel—linked by a shared base frequency. Each voice applies separate modulation to pitch and amplitude, creating continuously shifting stereo textures. Through waveform fusion, spectral shaping, and layered stochastic processes, Cicado generates a broad and expressive range of timbral variation from a compact synthesis architecture.
 
-Instead of layering multiple voices, Cicado shapes a single pitch stream through modulation and filtering. It is used as a **VST/AU plugin** in live performance contexts, designed for play without screen interaction. All parameters are accessible via **MIDI and OSC**, mapped to physical controls or touch interfaces such as Open Stage Control. Cicado functions both as a standalone voice and as an **ornamental counterpart** to harmonic instruments like [**Tokolo**](Tokolo_Readme.md), particularly in free, ensemble-based improvisation.
+Instead of layering multiple voices, Cicado shapes a single pitch stream through modulation and filtering. It is used as a **VST/AU plugin** in live performance contexts, designed for play without screen interaction. All parameters are accessible via **MIDI and OSC**, mapped to physical controls or touch interfaces such as Open Stage Control. Cicado functions both as a standalone voice and as an **ornamental counterpart** to harmonic instruments like [**Tokolo**](tokolo.md) and [**Bonkolo**](bonkolo.md), particularly in free, ensemble-based improvisation.
 
 Inspired by the collective sound behaviors of cicadas, Cicado generates phase-shifting pulses, asynchronous rhythms, and timbral motion across the stereo field. Its architecture supports fluid transitions between noise, tone, and vocal-like coloration, all shaped through continuous control. The instrument responds directly to performance gestures, with a focus on **tactile responsiveness**, and all modulation parameters accessible via foot pedals, sliders, and touch interfaces.
 
 <p align="left">
   <img src="../images/cicado.png" style="max-width: 100%;" width="700">
   <br>
-  <em>Cicado interface, showing grouped controls for oscillator shaping, frequency and amplitude modulation, formant filtering, stereo behavior, and output shaping. All parameters are mapped to MIDI/OSC controllers.</em>
+  <em><strong>Cicado interface</strong>, showing grouped controls for oscillator shaping, frequency and amplitude modulation, formant filtering, stereo behavior, and output shaping. All parameters are mapped to MIDI/OSC controllers.</em>
 </p>
 ## Sound Generation and Modulation
 
