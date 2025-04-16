@@ -17,7 +17,7 @@ The instrument’s architecture has been refined through an iterative process in
 <p align="left">
   <img src="../images/tokolo.png" style="max-width: 100%;" width="700">
   <br>
-  <em>Tokolo interface, organized by functional groups: Genotype (mode and key selection), Mutate (response to tuning), Eikosany (scale selection), Pitch Modulation & Tuning, Phenotype (articulation type), Gelation (sustained evolving layer), Color Modulation (timbre), FM Synthesis, Lowpass Filter, and Volume & Pan modulation. Key parameters are mapped to MIDI/OSC controllers.</em>
+  <em><strong>Tokolo interface</strong>, organized by functional groups: Genotype (mode and key selection), Mutate (response to tuning), Eikosany (scale selection), Pitch Modulation & Tuning, Phenotype (articulation type), Gelation (sustained evolving layer), Color Modulation (timbre), FM Synthesis, Lowpass Filter, and Volume & Pan modulation. Key parameters are mapped to MIDI/OSC controllers.</em>
 </p>
 
 The signal architecture is organized as a layered real-time processing system. Incoming MIDI notes are routed through a tuning and mapping layer, which selects pitches from a dynamically indexed scale table. Each note’s behavior is determined by the articulation type. These articulated notes trigger an FM synthesis engine, where each note is rendered using a fixed carrier-modulator structure with adjustable ratios, depths, and feedback. Per-note modulation is applied to pitch, FM depth (color), volume, and panning. Finally, all audio is summed and passed through a global lowpass filter before output.
