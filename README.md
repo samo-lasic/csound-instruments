@@ -1,6 +1,6 @@
 # csound-instruments
 
-This repository hosts a growing portfolio of real-time performance instruments built in [Csound](https://csound.com/) and [Cabbage](https://cabbageaudio.com/), designed for expressive, gesture-based control in live improvisation.
+This repository hosts a growing portfolio of real-time performance instruments built in [Csound](https://csound.com/) and [Cabbage](https://cabbageaudio.com/), designed for expressive control via MIDI controllers, foot pedals, and touch-based OSC interfaces—optimized for live improvisation.
 
 For full documentation and instrument descriptions, visit:  
 [samo-lasic.github.io/csound-instruments](https://samo-lasic.github.io/csound-instruments/)
