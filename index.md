@@ -17,7 +17,7 @@ These instruments are used in live performance and are not publicly released as 
 ---
 ## Tokolo
 
-**Tokolo** is a modular, polyphonic performance instrument developed in [Csound](https://csound.com/) and [Cabbage](https://cabbageaudio.com/), designed for expressive real-time improvisation. It runs as a plugin (VST/AU) within any DAW and supports dynamic tuning, acoustic-inspired articulation types, and modular per-note modulation. Control is entirely hands-on via MIDI controllers, foot pedals, or OSC-based tools, with no reliance on mouse interaction during performance.
+**Tokolo** is a modular, polyphonic performance instrument developed in [Csound](https://csound.com/) and [Cabbage](https://cabbageaudio.com/), designed for expressive real-time improvisation. It runs as a plugin (VST/AU) within any DAW and supports dynamic tuning, acoustic-inspired articulation types, and modular per-note modulation. Control is entirely hands-on via MIDI controllers, foot pedals, or OSC-based tools, without interaction with the computer’s monitor during performance.
 
 The tuning system is based on **Erv Wilson’s Combination Product Sets (CPS)**, with selectable **Eikosany** scales and real-time modulation of their subsets—**Decanies** and **Hexanies**. **Church modes** in both **Just Intonation** and **Equal Division of the Octave (EDO)** provide additional modal frameworks. Tuning data is precomputed in Python and loaded as frequency tables. A compound indexing system combines mode, key, and note selection for efficient retrieval.
 
@@ -169,7 +169,8 @@ For further information about Bonkolo’s design and features, see:
 ---
 ## Cicado
 
-**Cicado** is a performance instrument built in **Csound** and **Cabbage**, designed for real-time use in improvised and ensemble-based contexts. It shapes a **single modulated voice** articulated across two audio channels—each with independent pitch, amplitude, and timbral movement. Instead of layering multiple voices, Cicado emphasizes continuous variation through divergent envelopes, spline-based frequency shaping, rhythmic amplitude modulation, and vowel-based formant filtering.
+**Cicado** is a performance instrument built in **Csound** and **Cabbage**, designed for real-time use in improvised and ensemble-based contexts. It shapes a **single modulated voice** articulated across two audio channels—each with independent pitch, amplitude, and timbral movement. Instead of layering multiple voices, Cicado emphasizes continuous variation through divergent envelopes, spline-based frequency shaping, rhythmic amplitude modulation, and vowel-based formant filtering. It can serve as an ornamental counterpart to harmonic instruments like [**Tokolo**](tokolo.md) and [**Bonkolo**](bonkolo.md).
+
 
 At its core is a flexible oscillator that blends between sine and band-limited square waveforms, modulated by smooth random splines with independent paths per channel—creating drifting phase relationships and spatial motion. These modulations shape pitch, amplitude, and spectral content. With adjustable rate and bandwidth, they produce behaviors ranging from melodic smears and chirps to dispersed articulations. At higher rates, they can be routed directly into the audio path producing fragmented, raspy textures and colored noise components. **Blend controls offer full flexibility, allowing modulation to function as gesture, texture, or timbre modifier depending on context.** All synthesis paths are alias-free, preserving analog-like smoothness throughout the modulation and audio domains.
 
